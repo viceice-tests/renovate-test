@@ -1,4 +1,4 @@
-FROM traefik:1.7.21-alpine@sha256:0e4ac8ae724603898620dbd5eb9cda7ec05f405d25476eb0d32b716b490ba079
+FROM traefik:v1.7.34-alpine@sha256:7fa25a5a54a44ddab4d6b5e40bf03175ae617b460c0ee4a744b859edfdf12c9a
 
 FROM gitlab/gitlab-ce:13.1.8-ce.0
 
