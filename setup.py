@@ -59,7 +59,7 @@ setup(
     ),
     include_package_data=True,
     install_requires=[
-        'gunicorn>=19.7.0,<20.0',
+        'gunicorn>=23,<23.1',
         'Werkzeug>=0.15.3,<0.16', 'statsd>=3.2.1,<4.0',
         'requests>=2.10.0,<3.0', # renovate: ignore
         'raven>=5.27.1,<7.0', # pyup: nothing
